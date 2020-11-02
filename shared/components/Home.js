@@ -4,6 +4,8 @@ import TopNav from './TopNav';
 
 class Home extends React.Component {
   constructor(props) {
+
+    console.log(props);
     super(props);
     this.state = {
       resHello: 'Loading...',
@@ -37,7 +39,8 @@ class Home extends React.Component {
       <div>
         <TopNav route={this.props.route} />
         <div className="container">
-          <h1>Home page</h1>
+          <h1>Welcome!!!</h1>
+          <h4>Here's your random quote for the day!</h4>
           <h6>
             {`Message from the server: ${this.state.resHello}`}
           </h6>

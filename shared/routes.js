@@ -2,6 +2,7 @@ import Home from './components/Home';
 import About from './components/About';
 import NotFound from './components/NotFound';
 import Root from './components/Root';
+import Contact from './components/ContactUs';
 
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
       {
         path: '/about',
         component: About
+      },
+      {
+        path: '/contact',
+        component: Contact
       },
       {
         path: '*',

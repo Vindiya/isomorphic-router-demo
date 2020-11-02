@@ -9,7 +9,7 @@ export default class TopNav extends React.Component {
       selected = this.props.route.path.split('/').pop();
     }
     return (
-      <nav>
+      <nav style={{background: "#19616d"}}>
         <div className="nav-wrapper">
           <a href="/" className="brand-logo">Demo</a>
           <ul id="nav-mobile" className="right">
@@ -19,8 +19,8 @@ export default class TopNav extends React.Component {
             <li className={selected === 'about' ? 'active' : ''}>
               <Link to="/about">About</Link>
             </li>
-            <li className={selected === 'foo' ? 'active' : ''}>
-              <Link to="/foo">Foo</Link>
+            <li className={selected === 'contact' ? 'active' : ''}>
+              <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
