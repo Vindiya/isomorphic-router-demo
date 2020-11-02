@@ -4,7 +4,7 @@
 To try out the app:
 
 ```
-$ git clone https://github.com/xiaoyunyang/isomorphic-router-demo.git
+$ git clone https://github.com/Vindiya/isomorphic-router-demo.git
 $ cd isomorphic-router-demo
 $ npm install
 $ npm start
